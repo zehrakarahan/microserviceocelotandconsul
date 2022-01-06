@@ -1,0 +1,51 @@
+{
+  "ReRoutes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/bar",
+      "DownstreamScheme": "http",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ServiceName": "MyService",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/bar-service/bar"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+
+  }
+}
+
+//{
+//  "Routes": [
+//    {
+//      "DownstreamPathTemplate": "/api/bar",
+//      "DownstreamScheme": "http",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 5002
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/bar",
+//      "UpstreamHttpMethod": [ "Get" ]
+//    }
+
+//  ],
+//  "GlobalConfiguration": {
+//    "BaseUrl": "http://localhost:5000"
+//  }
+//}
