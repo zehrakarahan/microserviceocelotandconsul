@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oBayA6V581WfH01RpFwoYrjBydbbq7LZwYm8tIU8JXCS37/adoS2ifKhDuLM2lCX6GzUyAABpviRKihe3h2FVA==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudioProjeler\\MicroService\\MicroService.ProductAPI\\MicroService.ProductAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zehra.Karahan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

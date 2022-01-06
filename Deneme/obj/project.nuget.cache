@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/iM8xCm3TTSVHXFNzLYD1PhkfneboYmzGqYugDxCCwfzwTypccbhlEArKW7zHLtW199jMR2sbVeI2QwEWuG4fA==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudioProjeler\\MicroService\\Deneme\\Deneme.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zehra.Karahan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
